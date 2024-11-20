@@ -1,0 +1,59 @@
+ /* Estilos personalizados para modo oscuro */
+ body {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+}
+
+.navbar, .card, .alert, .carousel-item {
+    background-color: #333 !important; /* Fondo gris oscuro */
+}
+
+.navbar a, .card-title, .alert, h2, h5 {
+    color: #fff !important; /* Texto blanco */
+}
+
+.btn-primary {
+    background-color: #444; /* Botones con un gris intermedio */
+    color: #fff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #555; /* Hover más claro */
+}
+
+.btn-secondary {
+    background-color: #555;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #666;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* Iconos del carrusel en blanco */
+}
+
+.popover-header {
+    background-color: #444;
+    color: #fff;
+}
+
+.popover-body {
+    background-color: #333;
+    color: #fff;
+}
+.pagination .page-link {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+}
+.pagination .page-link:hover {
+    background-color: #444;
+    color: #fff;
+}
+.pagination .active .page-link {
+    background-color: #555;
+    border-color: #666;

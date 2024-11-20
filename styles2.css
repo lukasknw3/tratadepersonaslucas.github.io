@@ -1,0 +1,52 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+.header-dark {
+    background: linear-gradient(to right, #000000, #434343);
+    padding: 100px 0;
+a {
+    color: #f8f9fa;
+}
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+    object-fit: cover; /* Asegura que el video cubra todo el espacio */
+}
+a:hover {
+    color: #dc3545;
+}
+
+.card {
+    border: none;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    font-size: 1.1rem;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+    border-width: 0.3rem;
+}
+/* CSS personalizado para cambiar el color del texto del carrusel */
+
+.pagination .page-link {
+    background-color: #333;
+    color: #272222;
+    border: 1px solid #444;
+}
+.pagination .page-link:hover {
+    background-color: #444;
+    color: #1a1616;
+}
+.pagination .active .page-link {
+    background-color: #555;
+    border-color: #666;
+}
